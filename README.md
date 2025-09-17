@@ -25,3 +25,40 @@ It is built with a Python backend, a simple frontend, and Docker support for eas
 Here’s a high-level view of how the system is structured:
 
 
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| **Commit Suggestions** | Generate meaningful commit messages from code diffs. |
+| **PR Review Help** | Auto-analyze pull requests, highlight issues, suggest improvements. |
+| **Project Insights** | Identify code smells, improve structure, recommend refactoring. |
+| **Chat Interface** | Ask questions, get guidance about your repo internals. |
+
+---
+
+## 🔧 Tech Stack
+
+- **Backend**: Python (Flask/FastAPI)  
+- **Frontend**: HTML, CSS, JS  
+- **AI Integration**: OpenAI API or custom model  
+- **Deployment**: Docker, docker-compose  
+- **CI/CD**: GitHub Actions  
+
+---
+
+## ⚙️ Setup & Installation
+
+### 🔹 Prerequisites
+- [Docker](https://docs.docker.com/get-docker/)  
+- [Docker Compose](https://docs.docker.com/compose/)  
+- (Optional) API key for the AI model  
+
+### 🔹 Run with Docker
+
+```bash
+git clone https://github.com/sujith130/Git-AI-companion.git
+cd Git-AI-companion
+docker-compose up --build
