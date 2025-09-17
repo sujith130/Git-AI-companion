@@ -71,14 +71,14 @@ python app.py
 
 # Frontend (open index.html in your browser)
 
-## 🚀 Usage
+### 🚀 Usage
 - 🌐 Open the **frontend** in your browser  
 - 💬 Start chatting with the **AI companion** about your project  
 - 📝 Use it to **review PRs**, **suggest commits**, or **optimize code**  
 
 ---
 
-## 📌 Roadmap
+### 📌 Roadmap
 - 🔒 [ ] Add authentication & user sessions  
 - 🤖 [ ] Better project-wide context for AI suggestions  
 - 🔗 [ ] GitHub / GitLab API integration  
@@ -87,7 +87,7 @@ python app.py
 
 ---
 
-## 🤝 Contributing
+###🤝 Contributing
 Contributions are welcome!  
 
 1. 🍴 Fork this repo  
