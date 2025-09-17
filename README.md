@@ -29,7 +29,24 @@ Here’s a high-level view of how the system is structured:
 - **Frontend** → User interface for interacting with the AI companion  
 - **Backend** → Handles requests, connects with AI model, manages PRs & commits  
 - **AI Engine** → Provides suggestions, reviews, and optimizations  
-- **Git API Layer** → Interfaces with GitHub/GitLab for repo data  
+- **Git API Layer** → Interfaces with GitHub/GitLab for repo data   
+
+---
+
+## ✨ Demo / Screenshots
+
+Here’s a quick look at **Git-AI-Companion in action**:
+
+### 🔹 Dashboard
+![Dashboard Screenshot](https://via.placeholder.com/900x500.png?text=Dashboard+View)
+
+### 🔹 AI Chat Assistant
+![AI Chat Screenshot](https://via.placeholder.com/900x500.png?text=AI+Chat+View)
+
+### 🔹 Pull Request Review
+![PR Review Screenshot](https://via.placeholder.com/900x500.png?text=Pull+Request+Review)
+
+> ⚠️ Replace the above placeholders with actual screenshots or GIFs of your app once available.
 
 ---
 
@@ -60,6 +77,11 @@ Contributions are welcome!
 3. 💾 Commit changes (`git commit -m "Add feature"`)  
 4. 📤 Push branch (`git push origin feature-name`)  
 5. 🔀 Open a Pull Request  
+
+---
+
+
+
 
 ---
 
