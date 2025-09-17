@@ -1,0 +1,15 @@
+name: PR Review Bot
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send PR payload to backend
+        env:
+          BACKEND_URL: ${{ secrets.BACKEND_URL }}
+        run: |
+          curl -X POST "${BACKEND_URL}/pr-review/webhook"             -H "Content-Type: application/json"             -d "${{ toJson(github.event) }}"
