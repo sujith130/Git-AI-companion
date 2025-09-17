@@ -71,3 +71,35 @@ python app.py
 
 # Frontend (open index.html in your browser)
 
+
+🚀 Usage
+Open the frontend in your browser
+
+Start chatting with the AI companion about your project
+
+Use it to review PRs, suggest commits, or optimize code
+
+📌 Roadmap
+ Add authentication & user sessions
+
+ Better project-wide context for AI suggestions
+
+ GitHub / GitLab API integration
+
+ Automated tests & coverage reports
+
+ Deployment to cloud platforms (Heroku, DigitalOcean, Vercel)
+
+🤝 Contributing
+Contributions are welcome!
+
+Fork this repo
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit changes (git commit -m "Add feature")
+
+Push branch (git push origin feature-name)
+
+Open a Pull Request
+
