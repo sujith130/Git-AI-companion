@@ -80,6 +80,21 @@ Contributions are welcome!
 
 ---
 
+## 📦 Installation
+
+You can run Git-AI-Companion either with **Docker** or **manually**.
+
+### 🔹 Using Docker (Recommended)
+```bash
+# Clone the repository
+git clone https://github.com/sujith130/Git-AI-companion.git
+cd Git-AI-companion
+
+# Build the Docker image
+docker build -t git-ai-companion .
+
+# Run the container
+docker run -p 8000:8000 git-ai-companion
 
 
 
