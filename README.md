@@ -62,3 +62,12 @@ Here’s a high-level view of how the system is structured:
 git clone https://github.com/sujith130/Git-AI-companion.git
 cd Git-AI-companion
 docker-compose up --build
+
+
+# Backend setup
+cd backend
+pip install -r requirements.txt
+python app.py
+
+# Frontend (open index.html in your browser)
+
